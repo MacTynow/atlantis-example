@@ -10,7 +10,7 @@ module "ec2_etcd" {
   iam_instance_profile   = ""
 }
 
-module "ec2_test  " {
+module "ec2_test" {
   source        = "../aws/ec2"
   count         = "1"
   subnet_id     = ""
